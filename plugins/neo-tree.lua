@@ -1,7 +1,7 @@
 return {
   filesystem = {
     filtered_items = {
-      hide_dotfiles = false
+      hide_dotfiles = true
     }
   }
 }

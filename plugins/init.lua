@@ -6,5 +6,7 @@ return {
   ["zbirenbaum/copilot-cmp"] = {
     after = { "copilot.lua" },
     config = require("user.plugins.copilot-cmp")
-  }
+  },
+
+  { "nanotee/sqls.nvim" }
 }
