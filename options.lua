@@ -7,6 +7,7 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    guifont = {"ComicCodeLigatures Nerd Font", ":h13"}, -- sets vim.opt.guifont
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
@@ -14,10 +15,8 @@ return {
     autopairs_enabled = true, -- enable autopairs at start
     diagnostics_enabled = true, -- enable diagnostics at start
     status_diagnostics_enabled = true, -- enable diagnostics in statusline
-    -- coplot settings
-    -- copilot_no_tab_map = true,
-    -- copilot_assume_mapped = true,
-    -- copilot_tab_fallback = ""
+    gruvbox_baby_telescope_theme = 1,
+    gruvbox_baby_background_color = "medium",
   },
 
 }
